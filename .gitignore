@@ -1,0 +1,15 @@
+# Anlogic TD 编译生成文件
+project_frame_hdmi_v2_Runs/
+log/
+*.log
+*.logw
+*.bit
+
+# 编辑器与系统文件
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# 如果需要发布根目录这个码流，可取消下一行注释
+ !FRAME_HDMI_AUDIO.bit
